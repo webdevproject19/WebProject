@@ -1,2 +1,0 @@
-val imageBitmap = MediaStore.Images.Media.getBitmap(this.contentResolver,imageUri)
-val imageBitmap = data!!.extras!!.get("data") as Bitmap
